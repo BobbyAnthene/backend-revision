@@ -1,0 +1,23 @@
+### GET 
+GET http://localhost:5000
+
+### POST
+POST http://localhost:5000/auth/register
+Content-Type: application/json
+
+{
+    "username": "developer",
+    "password": "testing"
+}
+
+### POST
+POST http://localhost:5000/auth/login
+Content-Type: application/application/json
+
+{
+    "username": "developer",
+    "password": "testing"
+}
+
+### PUT
+PUT http://localhost:5000 
